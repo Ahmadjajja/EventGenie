@@ -7,7 +7,7 @@ function Login() {
       <div className="container">
         {/* Login */}
         <div className="row">
-          <div className="col">Login</div>
+          <div className="col">Login...</div>
         </div>
       </div>
     </div>
