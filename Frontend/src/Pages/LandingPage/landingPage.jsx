@@ -58,6 +58,7 @@ function LandingPage() {
     };
     console.log(searchTempData);
     // eventOnly filtered data
+    console.log(searchDumyData);
     let filteredData = searchDumyData.filter((record) =>
       searchTempData.eventsOnly == false ? true : record.eventsOnly
     );
