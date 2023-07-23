@@ -111,6 +111,7 @@ function LandingPage() {
                     className="form-control"
                     aria-label="Text input with segmented dropdown button"
                     onChange={inputChangeHandler}
+                    value={inputValue}
                   />
                   <button
                     type="button"
