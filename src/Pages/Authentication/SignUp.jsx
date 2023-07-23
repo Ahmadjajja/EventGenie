@@ -45,7 +45,7 @@ function SignUp() {
                     Email
                   </label>
                   <br />
-                  <div class="input-group flex-nowrap">
+                  <div className="input-group flex-nowrap">
                     <input
                       type="email"
                       className="form-control"
@@ -60,7 +60,7 @@ function SignUp() {
                   <label for="password" className="form-label">
                     Password
                   </label>
-                  <div class="input-group flex-nowrap">
+                  <div className="input-group flex-nowrap">
                     <input
                       type={isPasswordShow ? "text" : "password"}
                       className="form-control"
@@ -74,7 +74,7 @@ function SignUp() {
                     />
                     <button
                       type="button"
-                      class="input-group-text"
+                      className="input-group-text"
                       onClick={() => {
                         setIsPasswordShow(!isPasswordShow);
                       }}
@@ -89,7 +89,7 @@ function SignUp() {
                   <label for="confirmPassword" className="form-label">
                     Confirm Password
                   </label>
-                  <div class="input-group flex-nowrap">
+                  <div className="input-group flex-nowrap">
                     <input
                       type={isConfirmPasswordShow ? "text" : "password"}
                       className="form-control"
@@ -103,7 +103,7 @@ function SignUp() {
                     />
                     <button
                       type="button"
-                      class="input-group-text"
+                      className="input-group-text"
                       onClick={() => {
                         setIsConfirmPasswordShow(!isConfirmPasswordShow);
                       }}
@@ -119,7 +119,7 @@ function SignUp() {
                     <button
                       type="submit"
                       disabled={isLoading}
-                      class="btn signUpButton mt-2 mb-2"
+                      className="btn signUpButton mt-2 mb-2"
                     >
                       {!isLoading ? (
                         "Sign Up"
@@ -131,8 +131,8 @@ function SignUp() {
                 </form>
                 <div style={{ position: "relative" }}>
                   <span className="OR">
-                    <i class="fa-solid fa-o"></i>
-                    <i class="fa-solid fa-r"></i>
+                    <i className="fa-solid fa-o"></i>
+                    <i className="fa-solid fa-r"></i>
                   </span>
                   <hr />
                 </div>

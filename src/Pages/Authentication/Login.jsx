@@ -41,7 +41,7 @@ function Login() {
                     Email
                   </label>
                   <br />
-                  <div class="input-group flex-nowrap">
+                  <div className="input-group flex-nowrap">
                     <input
                       type="email"
                       className="form-control"
@@ -56,7 +56,7 @@ function Login() {
                   <label for="password" className="form-label">
                     Password
                   </label>
-                  <div class="input-group flex-nowrap">
+                  <div className="input-group flex-nowrap">
                     <input
                       type={isPasswordShow ? "text" : "password"}
                       className="form-control"
@@ -70,7 +70,7 @@ function Login() {
                     />
                     <button
                       type="button"
-                      class="input-group-text"
+                      className="input-group-text"
                       id="addon-wrapping"
                       onClick={() => {
                         setIsPasswordShow(!isPasswordShow);
@@ -97,7 +97,7 @@ function Login() {
                     <button
                       type="submit"
                       disabled={isLoading}
-                      class="btn  loginButton"
+                      className="btn  loginButton"
                     >
                       {!isLoading ? (
                         "Login"
@@ -112,8 +112,8 @@ function Login() {
                 </form>
                 <div style={{ position: "relative" }}>
                   <span className="OR text-center">
-                    <i class="fa-solid fa-o"></i>
-                    <i class="fa-solid fa-r"></i>
+                    <i className="fa-solid fa-o"></i>
+                    <i className="fa-solid fa-r"></i>
                   </span>
                   <hr />
                 </div>

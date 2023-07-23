@@ -17,7 +17,7 @@ function ForgotPassword() {
         <div className="row">
           <div className="col">
             <Link className="btn btn-home" to="/">
-              <i class="fa-solid fa-arrow-left"></i>
+              <i className="fa-solid fa-arrow-left"></i>
             </Link>
           </div>
         </div>
